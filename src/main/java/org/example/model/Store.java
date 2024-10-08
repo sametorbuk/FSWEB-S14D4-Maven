@@ -10,16 +10,6 @@ public class Store {
         products[2]=new Chocolate("bitter" , 5.6,"60% bitter");
         listProducts(products);
     }
-
-
-
-
-
-
-
-
-
-
     public static void listProducts(ProductForSale[] products) {
 
         for(int i = 0 ; i < products.length ; i++){

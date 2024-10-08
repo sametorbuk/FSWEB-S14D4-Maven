@@ -75,13 +75,13 @@ public class MainTest {
         assertThat(troll.getDamage(), instanceOf(Double.class));
 
         assertEquals(troll.getName(), "Shrek");
-        assertEquals(troll.getHitPoints(), 1000);
-        assertEquals(troll.getDamage(), 100);
+        assertEquals(troll.getHitPoints(), 100);
+        assertEquals(troll.getDamage(), 100.0);
     }
 
     @DisplayName("attack methodu doğru çalışıyor mu ?")
     @Test
     public void testAttackMethod() {
-       assertEquals(troll.attack(), 155.0);
+       assertEquals(troll.attack(), 15.5);
     }
 }
